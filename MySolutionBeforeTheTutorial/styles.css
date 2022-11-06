@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+  }
+  
+  .menu {
+    /*border: 1px solid #fff;  /* For debugging */
+    width: auto;
+    display: flex;
+  }
+  .menu .date{
+    flex: 5;
+    padding-left: 300px;
+  }
+  .menu .signup {
+    flex: 1;
+    text-align: center;
+  }
+  .menu .login {
+    text-align: left;
+    flex: 1;
+    padding-right: 20px;
+  }
+  .logo-container {
+    color: #fff;
+    background-color: #b5e0f1;
+    padding: 20px 0;
+  }
+  .menu .subscribe {
+    flex: 2;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .menu .logo {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+  }
+  .menu .icons {
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+  }
+  /*.timages-hree-container {
+    padding: auto;
+  } */
+  .top-three-images {
+    display: flex;
+    margin: auto;
+    height: 350px;
+    width: fit-content;
+  }
+  .top-three-images .image-five {
+    flex: 1;
+  }
+  .top-three-images .image-two {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+  }
+  .top-three-images .image-three {
+    flex: 1;
+  }
+
+  .bottom-three-images {
+    display: flex;
+    margin: auto;
+    height: 350px;
+    width: fit-content;
+  }
+  .bottom-three-images .image-four {
+    flex: 1;
+  }
+  .bottom-three-images .image-one {
+    flex: 1;
+  }
+  .footer {
+    display: flex;
+    position: relative;
+    height: 200px;
+  }
+  .footer .left-footer {
+    flex: 1;
+    background-color: #5995DA;
+  }
+  .footer .center-footer {
+    flex: 4;
+    background-color: #b5e0f1;
+  }
+  .footer .right-footer {
+    flex: 1;
+    background-color: #5995DA;
+  }
