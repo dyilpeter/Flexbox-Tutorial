@@ -13,14 +13,14 @@
   }
   
   .menu {
-    border: 1px solid #fff;  /* For debugging */
+    /*border: 1px solid #fff;  /* For debugging */
     width: 900px;
     display: flex;
     justify-content: space-between;
   }
 
   .links {
-    border: 1px solid #fff;  /* For debugging */
+    /*border: 1px solid #fff;  /* For debugging */
     display: flex;
     justify-content: flex-end;
   }
@@ -41,4 +41,5 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
